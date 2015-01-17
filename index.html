@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app='App'>
+  <head>
+    <title>My Angular App</title>
+    	<meta charset="utf-8">
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+
+		<script src="js/app.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  </head>
+  <body ng-controller="AppController as app">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="jumbotron">
+				  <h1>{{app.hello}}</h1>
+				  <p><a class="btn btn-primary btn-lg" href="#" role="button">Clique aqui para receber 1 milhão</a></p>
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+  </body>
+</html>
